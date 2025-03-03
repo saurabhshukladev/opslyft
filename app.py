@@ -20,7 +20,7 @@ cache = {}  # {ip_addr,{time of first request,count}}
 @app.before_request
 def pre_request():
     ip_addr = request.remote_addr
-    print(datetime.now())
+    
     if ip_addr in cache.keys():
         json_data = json.loads((cache[ip_addr]))
         time_of_first_request = datetime.fromisoformat(
