@@ -1,5 +1,9 @@
-@url = http://127.0.0.1:5000
+@url = http://0.0.0.0:8000
 
 ###
 
+GET {{url}}/get-auth-token
+
+###
 GET {{url}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MDk4NDk4MywianRpIjoiN2Q3MmM3ZDEtYWQ0ZC00ZmFmLWEwY2ItOGU2MWJjYTgwZDMyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Ijo6ZmZmZjoxMjcuMC4wLjEiLCJuYmYiOjE3NDA5ODQ5ODMsImNzcmYiOiJlNjAzMDRkYS1lYzBlLTRhM2UtOTcxYS03ODJjNDY3NTYxMDgiLCJleHAiOjE3NDA5ODU4ODN9.pxDQMo7nLYHd6iTP6h7S2Jwli6noTnNoUVRRLoKUmFM
